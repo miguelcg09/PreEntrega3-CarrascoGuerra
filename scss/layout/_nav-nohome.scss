@@ -1,0 +1,21 @@
+.body-nohome{
+    background-color: rgb(17, 22, 43);
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.nav-nohome{
+    padding: 20px;
+    & ul li a{
+        color: rgb(158, 26, 230);
+        text-decoration: none;
+        list-style: none;
+        font-size: 20px;
+    }
+    & ul li:hover a{
+        color: rgb(254, 254, 254);
+    }
+}
